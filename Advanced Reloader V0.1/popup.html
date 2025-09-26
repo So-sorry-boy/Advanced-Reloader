@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Advanced Reloader</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      padding: 15px;
+      width: 260px;
+      background: #f9f9f9;
+      text-align: center;
+    }
+    h3 {
+      margin: 0 0 12px 0;
+      font-size: 20px;
+      color: #2d89ef;
+    }
+    label {
+      display: block;
+      margin: 10px 0 4px;
+      font-size: 14px;
+      color: #333;
+      text-align: left;
+    }
+    input {
+      width: 100%;
+      padding: 7px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      font-size: 14px;
+    }
+    button {
+      width: 48%;
+      padding: 8px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+      color: white;
+      font-size: 14px;
+      transition: 0.2s;
+    }
+    #start {
+      background: #28a745;
+    }
+    #start:hover {
+      background: #218838;
+    }
+    #stop {
+      background: #dc3545;
+    }
+    #stop:hover {
+      background: #b02a37;
+    }
+    #status {
+      margin-top: 12px;
+      font-size: 13px;
+      color: #444;
+      min-height: 18px;
+    }
+    footer {
+      margin-top: 16px;
+      font-size: 12px;
+      color: #666;
+      border-top: 1px solid #ddd;
+      padding-top: 6px;
+    }
+    footer a {
+      color: #2d89ef;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h3>⚡ Advanced Reloader</h3>
+
+  <label for="interval">Interval (seconds):</label>
+  <input id="interval" type="number" value="5" min="1">
+
+  <label for="count">Reloads (0 = infinite):</label>
+  <input id="count" type="number" value="0" min="0">
+
+  <div>
+    <button id="start">Start</button>
+    <button id="stop">Stop</button>
+  </div>
+
+  <div id="status">Idle</div>
+
+  <footer>
+    Made with ❤️ by <b>Aryaman V Gupta</b><br>
+    <a href="https://yourwebsite.com" target="_blank">Portfolio</a>
+  </footer>
+
+  <script src="popup.js"></script>
+</body>
+</html>
