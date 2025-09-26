@@ -47,17 +47,17 @@ This extension does **not collect or transmit any personal data**. It runs entir
 
 ## Support
 
-For bugs or support, contact: [yourname@example.com](mailto:yourname@example.com)
+For bugs or support, contact: [paidtoolsdrive@gmail.com](mailto:paidtoolsdrive@gmail.com)
 
 ---
 
 ## Credits & Copyright
 
-**Author:** Your Name  
+**Author:** Aryaman V Gupta
 **Version:** 1.1  
 **License:** MIT License  
-**Copyright © 2025 Your Name. All rights reserved.**
+**Copyright © 2025 Aryaman V Gupta. All rights reserved.**
 
 ---
 
-Made with ❤️ by **Your Name**
+Made with ❤️ by **Aryaman V Gupta**
